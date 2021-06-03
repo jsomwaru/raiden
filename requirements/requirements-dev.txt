@@ -269,7 +269,7 @@ ipfshttpclient==0.7.0a1
     #   web3
 ipython-genutils==0.2.0
     # via traitlets
-ipython==7.23.1
+ipython==7.24.1
     # via -r requirements-dev.in
 isort==5.8.0
     # via
@@ -505,7 +505,7 @@ requests==2.25.1
     #   responses
     #   treq
     #   web3
-responses==0.10.15
+responses==0.13.3
     # via -r requirements-dev.in
 rlp==2.0.1
     # via
@@ -606,10 +606,11 @@ unpaddedbase64==1.1.0
     # via
     #   matrix-synapse
     #   signedjson
-urllib3==1.25.8
+urllib3==1.26.5
     # via
     #   -r requirements.txt
     #   requests
+    #   responses
 varint==1.0.2
     # via
     #   -r requirements.txt
